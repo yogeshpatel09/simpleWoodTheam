@@ -173,7 +173,7 @@ function Home() {
         <div className="w-full flex justify-center items-center">
           <div className="w-[75%]  py-5  ">
             <div className="flex gap-2">
-              <div className="grid grid-cols-2 gap-4 w-full">
+              {/* <div className="grid grid-cols-2 gap-4 w-full">
                 <div className=" h-96  bg-green-400"></div>
                 <div className="h-[600px]  bg-green-400"></div>
                 <div className=" h-96  bg-green-400"></div>
@@ -181,9 +181,9 @@ function Home() {
                 <div className=" h-96  bg-green-400"></div>
                 <div className="h-[600px]  bg-green-400"></div>
                 <div className=" h-96  bg-green-400"></div>
-              </div>
+              </div> */}
 
-              {/* <div className="grid grid-cols-2 gap-5 bg-gray-500 h-72 w-full">
+              <div className="grid grid-cols-2 gap-5 bg-gray-500 h-72 w-full">
                 <div className=""><img className="w-full  " src="/homebody01.png" alt="" /></div>
                 <div className=""><img className="w-full  " src="/homebody02.png" alt="" /></div>
                 <div className=""><img className="w-full  " src="/homebody03.png" alt="" /></div>
@@ -191,7 +191,7 @@ function Home() {
                 <div className=""><img className="w-full  " src="/homebody05.png" alt="" /></div>
                 <div className=""><img className="w-full  " src="/homebody06.png" alt="" /></div>
                 <div className=""><img className="w-full  " src="/homebody07.png" alt="" /></div>
-              </div> */}
+              </div>
               {/* <div className="w-1/2 text-xl">
               <img className="w-full  " src="/homebody01.png" alt="" />
                <span className="text-[#7DB800] text-2xl">+</span>  Sofas

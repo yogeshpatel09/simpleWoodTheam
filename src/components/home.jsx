@@ -1,4 +1,4 @@
-import { FaSearch } from "react-icons/fa";
+import { FaSearch, } from "react-icons/fa";
 import { FaRegHeart } from "react-icons/fa";
 import { FaRegUserCircle } from "react-icons/fa";
 import { FaCartFlatbed } from "react-icons/fa6";
@@ -171,7 +171,7 @@ function Home() {
           </div>
         </div>
         <div className="w-full flex justify-center items-center">
-          <div className="w-[75%]  py-5  ">
+          <div className="w-[75%]  py-5 bg-gray-200 ">
             <div className="flex gap-2">
               {/* <div className="grid grid-cols-2 gap-4 w-full">
                 <div className=" h-96  bg-green-400"></div>
@@ -183,7 +183,7 @@ function Home() {
                 <div className=" h-96  bg-green-400"></div>
               </div> */}
 
-              <div className="grid grid-cols-2 gap-5 bg-gray-500 h-72 w-full">
+              {/* <div className="grid grid-cols-2 gap-5 bg-gray-500 h-72 w-full">
                 <div className=""><img className="w-full  " src="/homebody01.png" alt="" /></div>
                 <div className=""><img className="w-full  " src="/homebody02.png" alt="" /></div>
                 <div className=""><img className="w-full  " src="/homebody03.png" alt="" /></div>
@@ -191,28 +191,52 @@ function Home() {
                 <div className=""><img className="w-full  " src="/homebody05.png" alt="" /></div>
                 <div className=""><img className="w-full  " src="/homebody06.png" alt="" /></div>
                 <div className=""><img className="w-full  " src="/homebody07.png" alt="" /></div>
-              </div>
-              {/* <div className="w-1/2 text-xl">
-              <img className="w-full  " src="/homebody01.png" alt="" />
-               <span className="text-[#7DB800] text-2xl">+</span>  Sofas
+              </div> */}
+              <div className="w-1/2 text-xl gap-2">
+                <img className="w-full  " src="/homebody01.png" alt="" />
+                <span className="text-[#7DB800] text-2xl">+</span> Sofas
               </div>
               <div className="w-1/2">
-              <img className="w-full " src="/homebody02.png" alt="" />
+                <img className="w-full " src="/homebody02.png" alt="" />
+                <span className="text-[#7DB800] text-2xl">+</span> Cupboards
               </div>
             </div>
             <div className="flex gap-2">
+              
               <div className="w-1/2">
-              <img className="w-full " src="/homebody03.png" alt="" />
+                <img className="w-full " src="/homebody03.png" alt="" />
+                <span className="text-[#7DB800] text-2xl">+</span> Tables
               </div>
+              
               <div className="w-1/2">
-              <img className="w-full" src="/homebody04.png" alt="" />
-              </div>*/}
+                <img className="w-full " src="/homebody04.png" alt="" />
+                <span className="text-[#7DB800] text-2xl">+</span> Beds & Mattresses
+              </div>
+            </div>
+            <div className="flex gap-2">
+            <div className="w-1/2">
+                <img className="w-full" src="/homebody05.png" alt="" />
+                <span className="text-[#7DB800] text-2xl">+</span> Floor lamps & Fixtures
+              </div>
+              
+              
+              <div className="w-1/2">
+                <img className="w-full " src="/homebody06.png" alt="" />
+                <span className="text-[#7DB800] text-2xl">+</span> Commode
+              </div>
+            </div>
+            <div className="flex gap-2">
+              
+              <div className="w-1/2">
+                <img className="w-full" src="/homebody07.png" alt="" />
+                <span className="text-[#7DB800] text-2xl">+</span>  Shelving
+              </div>
             </div>
           </div>
         </div>
         <div className="w-full flex justify-center">
-          <div className="bg-[#EBEFE5] h-[130px] flex justify-center  w-[70%]">
-            <div className="w-1/2 flex flex-col justify-center items-center">
+          <div className="bg-[#EBEFE5] h-[130px] flex justify-center  w-[75%]">
+            <div className="w-1/2 flex flex-col justify-center items-center p-2">
               <h1>Join our newsletter for £10 off</h1>
 
               <p>
@@ -230,52 +254,52 @@ function Home() {
             </div>
           </div>
         </div>
-<div className="flex justify-around items-center">
-        <div className="bg-black w-full h-40 flex items-center justify-around gap-20">
-          <div className="flex justify-around gap-20 ">
-            <div className=" text-white">
-              <a href="">Policy</a>
-              <a href="">Term & Conditions</a>
-              <a href="">Help</a>
-            </div>
-            <div className="text-white flex">
-              <span>
-                <svg
-                  width="24"
-                  height="23"
-                  viewBox="0 0 24 23"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
-                    d="M17.6588 9.69505L19.8187 13.3694L16.1584 13.3399L12.5415 7.18981L9.02587 13.2791L5.38315 13.2526L12.5006 0.924804L17.6588 9.69505ZM20.7969 15.0293L22.5796 18.0594L2.69747 17.9043L4.43393 14.8967L20.7969 15.0293ZM23.573 19.7468L21.8389 22.7503L0.000594258 22.5754L1.73705 19.5678L23.573 19.7468Z"
-                    fill="white"
-                  />
-                </svg>
-              </span>
-              <span>SimpleWood.</span>
-            </div>
-            <div className="text-white flex gap-5 items-center">
-              <span>Follow Us on Social</span>
-              <div className="relative z-10 flex  gap-2 ">
-                <a href="https://www.facebook.com/">
-                  <FaFacebookF className="text-white" />
-                </a>
-                <a href="https://x.com/?lang=en">
-                  <FaTwitter className="text-white" />
-                </a>
-                <a href="https://www.youtube.com/">
-                  <FaYoutube className="text-white" />
-                </a>
-                <a href="https://www.google.com">
-                  <FaGoogle className="text-white" />
-                </a>
+        <div className="flex justify-around items-center">
+          <div className="bg-black w-full h-40 flex items-center justify-around gap-20">
+            <div className="flex justify-around gap-20 ">
+              <div className=" text-white">
+                <a href="">Policy</a>
+                <a href="">Term & Conditions</a>
+                <a href="">Help</a>
+              </div>
+              <div className="text-white flex">
+                <span>
+                  <svg
+                    width="24"
+                    height="23"
+                    viewBox="0 0 24 23"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M17.6588 9.69505L19.8187 13.3694L16.1584 13.3399L12.5415 7.18981L9.02587 13.2791L5.38315 13.2526L12.5006 0.924804L17.6588 9.69505ZM20.7969 15.0293L22.5796 18.0594L2.69747 17.9043L4.43393 14.8967L20.7969 15.0293ZM23.573 19.7468L21.8389 22.7503L0.000594258 22.5754L1.73705 19.5678L23.573 19.7468Z"
+                      fill="white"
+                    />
+                  </svg>
+                </span>
+                <span>SimpleWood.</span>
+              </div>
+              <div className="text-white flex gap-5 items-center">
+                <span>Follow Us on Social</span>
+                <div className="relative z-10 flex  gap-2 ">
+                  <a href="https://www.facebook.com/">
+                    <FaFacebookF className="text-white" />
+                  </a>
+                  <a href="https://x.com/?lang=en">
+                    <FaTwitter className="text-white" />
+                  </a>
+                  <a href="https://www.youtube.com/">
+                    <FaYoutube className="text-white" />
+                  </a>
+                  <a href="https://www.google.com">
+                    <FaGoogle className="text-white" />
+                  </a>
+                </div>
               </div>
             </div>
           </div>
-        </div>
         </div>
       </div>
     </>

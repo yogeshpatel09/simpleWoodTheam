@@ -1,13 +1,22 @@
-
-import './App.css'
+import React from 'react'
+import {BrowserRouter, Route, Routes, } from 'react-router-dom'
+import Header from './components/Header'
+import Footer from './components/Footer'
 import Home from './components/Home'
-function App() {
-  
+import Account from './Account'
+import DashBoard from './components/DashBoard'
 
+function App() {
   return (
-    <>
-      <Home/>
-    </>
+    <BrowserRouter>
+      <Header/>
+      <Routes>
+        <Route path='/' element={<DashBoard />}/>
+
+        
+      </Routes>
+      <Footer/>
+    </BrowserRouter>
   )
 }
 

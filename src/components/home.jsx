@@ -84,24 +84,26 @@ function Home() {
                   </div>
                 </div>
                 <div className="relative z-10 w-full flex justify-center gap-6 text-white ">
-                  <a className="hover:text-[#7DB800] hover:border-b" href="">
+                  <ul className="flex gap-6">
+                  <li className="hover:text-[#7DB800] hover:border-b" href="">
                     Home
-                  </a>
-                  <a className="hover:text-[#7DB800] hover:border-b" href="">
+                  </li>
+                  <li className="hover:text-[#7DB800] hover:border-b" href="">
                     Products
-                  </a>
-                  <a className="hover:text-[#7DB800] hover:border-b" href="">
+                  </li>
+                  <li className="hover:text-[#7DB800] hover:border-b" href="">
                     Elements
-                  </a>
-                  <a className="hover:text-[#7DB800] hover:border-b " href="">
+                  </li>
+                  <li className="hover:text-[#7DB800] hover:border-b " href="">
                     Pages
-                  </a>
-                  <a className="hover:text-[#7DB800] hover:border-b" href="">
+                  </li>
+                  <li className="hover:text-[#7DB800] hover:border-b" href="">
                     Shop
-                  </a>
-                  <a className="hover:text-[#7DB800] hover:border-b" href="">
+                  </li>
+                  <li className="hover:text-[#7DB800] hover:border-b" href="">
                     Sale
-                  </a>
+                  </li>
+                  </ul>
                 </div>
               </div>
             </div>
@@ -258,9 +260,11 @@ function Home() {
           <div className="bg-black w-full h-40 flex items-center justify-around gap-20">
             <div className="flex justify-around gap-20 ">
               <div className=" text-white">
-                <a href="">Policy</a>
-                <a href="">Term & Conditions</a>
-                <a href="">Help</a>
+                <ul className="flex gap-2">
+                <li href="">Policy</li>
+                <li href="">Term & Conditions</li>
+                <li href="">Help</li>
+                </ul>
               </div>
               <div className="text-white flex">
                 <span>
@@ -284,18 +288,20 @@ function Home() {
               <div className="text-white flex gap-5 items-center">
                 <span>Follow Us on Social</span>
                 <div className="relative z-10 flex  gap-2 ">
-                  <a href="https://www.facebook.com/">
+                  <ul className="flex gap-1">
+                  <li href="https://www.facebook.com/">
                     <FaFacebookF className="text-white" />
-                  </a>
-                  <a href="https://x.com/?lang=en">
+                  </li>
+                  <li href="https://x.com/?lang=en">
                     <FaTwitter className="text-white" />
-                  </a>
-                  <a href="https://www.youtube.com/">
+                  </li>
+                  <li href="https://www.youtube.com/">
                     <FaYoutube className="text-white" />
-                  </a>
-                  <a href="https://www.google.com">
+                  </li>
+                  <li href="https://www.google.com">
                     <FaGoogle className="text-white" />
-                  </a>
+                  </li>
+                  </ul>
                 </div>
               </div>
             </div>

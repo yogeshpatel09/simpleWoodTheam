@@ -1,6 +1,8 @@
 import React from "react";
 
 function Account() {
+
+  
   return (
     <>
       <section>
@@ -30,7 +32,7 @@ function Account() {
           </div>
         </div>
         <div className="py-16 flex justify-center">
-          <div className="sm:w-[45%]">
+          <form className="sm:w-[45%]">
             <div className="py-2">
               <p className="text-sm font-bold">Personal Information</p>
             </div>
@@ -41,7 +43,7 @@ function Account() {
                 </label>
                 <input
                   type="text"
-                  placeholder="FullName"
+                  placeholder="FirstName"
                   className="px-2 py-0.5 text-sm border w-[78%]"
                 />
               </div>
@@ -109,7 +111,7 @@ function Account() {
               </button>
               <div className="text-[#A2A2A2] text-sm">Back</div>
             </div>
-          </div>
+          </form>
         </div>
       </section>
     </>

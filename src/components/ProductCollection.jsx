@@ -1,5 +1,6 @@
 import React from 'react'
 import { FaFacebookF, FaGoogle, FaTwitter, FaYoutube } from 'react-icons/fa'
+import { Link } from 'react-router-dom'
 
  function ProductCollection() {
   return (
@@ -39,10 +40,10 @@ import { FaFacebookF, FaGoogle, FaTwitter, FaYoutube } from 'react-icons/fa'
                 <div className="w-[65%]">
                 <div className="flex gap-2 justify-center items-center pt-3 text-xs">
                    <p className='text-[#A2A2A2]'>Share</p>
-                   <div className="h-9 w-9 bg-[#F0F0F0] flex justify-center items-center text-lg "><FaFacebookF className=' text-[#BBBBBB]'/></div>
-                   <div className="h-9 w-9 bg-[#F0F0F0] flex justify-center items-center text-lg"> <FaTwitter className=' text-[#BBBBBB]'/></div>
-                   <div className="h-9 w-9 bg-[#F0F0F0] flex justify-center items-center text-lg"><FaYoutube className=' text-[#BBBBBB]' /></div>
-                   <div className="h-9 w-9 bg-[#F0F0F0] flex justify-center items-center text-lg"><FaGoogle className=' text-[#BBBBBB]'/></div>
+                   <a href='https://www.facebook.com/' className="h-9 w-9 bg-[#F0F0F0] flex justify-center items-center text-lg "><FaFacebookF className=' text-[#BBBBBB]'/></a>
+                   <a href='https://www.X.com/' className="h-9 w-9 bg-[#F0F0F0] flex justify-center items-center text-lg"> <FaTwitter className=' text-[#BBBBBB]'/></a>
+                   <a href='https://www.YouTube.com/' className="h-9 w-9 bg-[#F0F0F0] flex justify-center items-center text-lg"><FaYoutube className=' text-[#BBBBBB]' /></a>
+                   <a href='https://www.Google.com/' className="h-9 w-9 bg-[#F0F0F0] flex justify-center items-center text-lg"><FaGoogle className=' text-[#BBBBBB]'/></a>
                 </div>
 
                 <div className="py-6">

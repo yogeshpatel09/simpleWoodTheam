@@ -34,7 +34,7 @@ export default function Catalog() {
         </div>
       </div>
 
-      <main className="px-4 md:px-16">
+      <main className="px-8 md:px-20">
         <div className="flex flex-col md:flex-row justify-center gap-10 py-10">
           <div className="flex flex-col gap-5 w-full md:w-1/3">
             <h1 className="font-semibold text-2xl">Shopping Options</h1>

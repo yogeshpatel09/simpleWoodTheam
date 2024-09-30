@@ -11,7 +11,7 @@ function Home() {
   return (
     <>
       <div className="w-full">
-        <div className="relative w-full h-[394px]  ">
+        <div className="relative w-full   ">
           <div className="flex   w-full justify-center items-center ">
             <div className="flex w-full">
               <div
@@ -26,9 +26,9 @@ function Home() {
                 <div className="absolute inset-0 bg-black opacity-80"></div>
               </div>
 
-              <div className="relative  w-full z-10 h-24 flex flex-col l justify-around items-center ">
+              <div className="relative  w-full z-10  flex flex-col l justify-around items-center ">
                 <div className="flex w-full justify-around ">
-                  <div className="relative z-10 flex bg-white h-8 items-center px-2 rounded-full">
+                  {/*<div className="relative z-10 flex bg-white h-8 items-center px-2 rounded-full">
                     <input
                       type="text"
                       placeholder="Search"
@@ -37,7 +37,7 @@ function Home() {
                     />
                     <FaSearch />
                   </div>
-                  <div className="text-white relative z-10 flex">
+                   <div className="text-white relative z-10 flex">
                     <span>
                       <svg
                         width="24"
@@ -59,9 +59,9 @@ function Home() {
                         SimpleWood <span className="text-green-500">.</span>
                       </h1>
                     </span>
-                  </div>
+                  </div> */}
 
-                  <div className="relative z-10 flex h-8 gap-3 items-center ">
+                  {/* <div className="relative z-10 flex h-8 gap-3 items-center ">
                     <select>
                       <option value="" className="outline-none">
                         English
@@ -81,9 +81,9 @@ function Home() {
                     <span>
                       <FaCartFlatbed className="text-lg text-white" />
                     </span>
-                  </div>
+                  </div> */}
                 </div>
-                <div className="relative z-10 w-full flex justify-center gap-6 text-white ">
+                {/* <div className="relative z-10 w-full flex justify-center gap-6 text-white ">
                   <ul className="flex gap-6">
                   <li className="hover:text-[#7DB800] hover:border-b" href="">
                     Home
@@ -104,7 +104,7 @@ function Home() {
                     Sale
                   </li>
                   </ul>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
@@ -112,6 +112,7 @@ function Home() {
             <div className="flex justify-center">
               <div className="flex flex-col h-[290px] w-[70%] py-5">
                 <div className="flex justify-around items-center">
+                  <div className="hidden sm:block">
                   <div className="relative z-10 flex flex-col gap-2 ">
                     <a href="https://www.facebook.com/">
                       <FaFacebookF className="text-white" />
@@ -125,6 +126,7 @@ function Home() {
                     <a href="https://www.google.com">
                       <FaGoogle className="text-white" />
                     </a>
+                  </div>
                   </div>
                   <div className="relative z-10 text-white flex flex-col gap-6">
                     <div className="w-[60%]">
@@ -142,6 +144,7 @@ function Home() {
                       </button>
                     </div>
                   </div>
+                  <div className="">
                   <div className="relative z-10 flex gap-2">
                     <div className="flex flex-col gap-2">
                       <img className="w-20" src="/home01.png" alt="" />
@@ -150,6 +153,7 @@ function Home() {
                     <div className="flex justify-center">
                       <img className="w-36" src="/home03.png" alt="" />
                     </div>
+                  </div>
                   </div>
                 </div>
                 <div className="">
@@ -173,27 +177,65 @@ function Home() {
           </div>
         </div>
         <div className="w-full flex justify-center items-center">
-          <div className="w-[75%]  py-5 bg-gray-200 ">
-            <div className="flex gap-2">
-              {/* <div className="grid grid-cols-2 gap-4 w-full">
-                <div className=" h-96  bg-green-400"></div>
-                <div className="h-[600px]  bg-green-400"></div>
-                <div className=" h-96  bg-green-400"></div>
-                <div className="h-[600px]  bg-green-400"></div>
-                <div className=" h-96  bg-green-400"></div>
-                <div className="h-[600px]  bg-green-400"></div>
-                <div className=" h-96  bg-green-400"></div>
-              </div> */}
+           <div className="w-[75%]  py-5 bg-[#EBEFE5] ">
 
-              {/* <div className="grid grid-cols-2 gap-5 bg-gray-500 h-72 w-full">
-                <div className=""><img className="w-full  " src="/homebody01.png" alt="" /></div>
-                <div className=""><img className="w-full  " src="/homebody02.png" alt="" /></div>
-                <div className=""><img className="w-full  " src="/homebody03.png" alt="" /></div>
-                <div className=""><img className="w-full  " src="/homebody04.png" alt="" /></div>
-                <div className=""><img className="w-full  " src="/homebody05.png" alt="" /></div>
-                <div className=""><img className="w-full  " src="/homebody06.png" alt="" /></div>
-                <div className=""><img className="w-full  " src="/homebody07.png" alt="" /></div>
-              </div> */}
+            <div className=" sm:flex w-full gap-4">
+              <div className=" sm:w-1/2 ">
+              <div className=" text-xl gap-2">
+                <img className="  " src="/homebody01.png" alt="" />
+                <span className="text-[#7DB800] text-2xl">+</span> Sofas
+              </div>
+              <div className=" text-xl gap-2">
+                <img className="  " src="/homebody03.png" alt="" />
+                <span className="text-[#7DB800] text-2xl">+</span> Sofas
+              </div>
+              <div className=" text-xl gap-2">
+                <img className="  " src="/homebody05.png" alt="" />
+                <span className="text-[#7DB800] text-2xl">+</span> Sofas
+              </div>
+              <div className=" text-xl gap-2">
+                <img className="  " src="/homebody07.png" alt="" />
+                <span className="text-[#7DB800] text-2xl">+</span> Sofas
+              </div>
+              </div>
+              <div className="sm:w-1/2 ">
+              <div className="">
+                <img className="w-full " src="/homebody02.png" alt="" />
+                <span className="text-[#7DB800] text-2xl">+</span> Cupboards
+              </div>
+              <div className="">
+                <img className="w-full " src="/homebody04.png" alt="" />
+                <span className="text-[#7DB800] text-2xl">+</span> Cupboards
+              </div>
+              <div className="flex flex-col gap-4 py-9 px-4 ">
+                <h1>Get 10% Discount</h1>
+                <p>Get 10% discount with notified about the latest news and updates, no spam, we proise1</p>
+                <input type="text"
+                placeholder="Enter your email address"
+                className="px-2 py-1 rounded-full" />
+              </div>
+              <div className="">
+                <img className="w-full " src="/homebody06.png" alt="" />
+                <span className="text-[#7DB800] text-2xl">+</span> Cupboards
+              </div>
+              </div>
+            </div>
+            <div className="bg-[#EBEFE5] px-10 py-6">
+              <div className="sm:flex w-full ">
+                
+                <div className=" sm:w-1/2">
+                  <h1 className="text-md font-bold">Join our newsletter for £10 off</h1>
+                  <p className="text-sm text-[#828282]">We'll email you a voucher worth £10 off your first order over £50. By subscribing you agree to our Terms & Conditions and Privacy & Cookies Policy.</p>
+                 
+                </div>
+                <div className="sm:w-1/2 flex justify-center items-center">
+                <input type="text"
+                  className="px-3 py-2 rounded-full"
+                  placeholder="Enter your email address" />
+                </div>
+              </div>
+            </div>
+           {/* <div className="flex gap-2">
               <div className="w-1/2 text-xl gap-2">
                 <img className="w-full  " src="/homebody01.png" alt="" />
                 <span className="text-[#7DB800] text-2xl">+</span> Sofas
@@ -233,10 +275,10 @@ function Home() {
                 <img className="w-full" src="/homebody07.png" alt="" />
                 <span className="text-[#7DB800] text-2xl">+</span>  Shelving
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
-        <div className="w-full flex justify-center">
+        {/* <div className="w-full flex justify-center">
           <div className="bg-[#EBEFE5] h-[130px] flex justify-center  w-[75%]">
             <div className="w-1/2 flex flex-col justify-center items-center p-2">
               <h1>Join our newsletter for £10 off</h1>
@@ -255,8 +297,8 @@ function Home() {
               />
             </div>
           </div>
-        </div>
-        <div className="flex justify-around items-center">
+        </div> */}
+        {/* <div className="flex justify-around items-center">
           <div className="bg-black w-full h-40 flex items-center justify-around gap-20">
             <div className="flex justify-around gap-20 ">
               <div className=" text-white">
@@ -306,7 +348,7 @@ function Home() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </>
   );

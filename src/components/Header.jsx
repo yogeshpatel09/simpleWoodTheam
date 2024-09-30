@@ -72,7 +72,7 @@ function Header() {
               <li className=" hover:text-[#7DB800] hover:border-b" href="">
                 Home
               </li>
-              <li className=" hover:text-[#7DB800] hover:border-b" href="">
+              <li className=" hover:text-[#7DB800] hover:border-b hover:decoration-red-500 transition-all duration-200 " href="">
                 Products
               </li>
               <li className=" hover:text-[#7DB800] hover:border-b" href="">

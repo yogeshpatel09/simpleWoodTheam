@@ -14,9 +14,12 @@ function App() {
     <BrowserRouter>
       <Header/>
       <Routes>
-        <Route path='/' element={<ProductCollection />}/>
-
-        
+        <Route path='/' element={<Home />}/>
+        <Route path='/Catalog' element={<Catalog />}/>
+        <Route path='/ProductCollection' element={<ProductCollection />}/>
+        <Route path='/Account' element={<Account />}/>
+        <Route path='/SoppingCart' element={<SoppingCart/>}/>
+        <Route path='/DashBoard' element={<DashBoard />}/>
       </Routes>
       <Footer/>
     </BrowserRouter>

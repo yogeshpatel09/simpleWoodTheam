@@ -71,16 +71,11 @@ function Header() {
             <NavLink to="/Catalog" className="hover:text-[#7DB800] hover:border-b transition-all duration-200">
               Products
             </NavLink>
-            <NavLink to="/Catalog" className="hover:text-[#7DB800] hover:border-b">
-              Elements
-            </NavLink>
-            <NavLink to="/ProductCollection" className="hover:text-[#7DB800] hover:border-b">
-              Pages
-            </NavLink>
-            <NavLink to="/Account" className="hover:text-[#7DB800] hover:border-b">
+            
+            <NavLink to="/Shop" className="hover:text-[#7DB800] hover:border-b">
               Shop
             </NavLink>
-            <NavLink to="#" className="hover:text-[#7DB800] hover:border-b">
+            <NavLink to="/Sale" className="hover:text-[#7DB800] hover:border-b">
               Sale
             </NavLink>
           </ul>

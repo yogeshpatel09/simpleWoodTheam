@@ -9,6 +9,9 @@ import SoppingCart from './components/SoppingCart'
 import Catalog from './components/Catalog'
 import ProductCollection from './components/ProductCollection'
 import SignIn from './components/SignIn'
+import Shop from './components/Shop'
+import Sale from './components/sale'
+
 
 function App() {
   return (
@@ -22,6 +25,8 @@ function App() {
         <Route path='/SoppingCart' element={<SoppingCart/>}/>
         <Route path='/DashBoard' element={<DashBoard />}/>
         <Route path='/SignIn' element={<SignIn/>}></Route>
+        <Route path='/Shop' element={<Shop/>}></Route>
+        <Route path='/Sale' element={<Sale/>}></Route>
       </Routes>
       <Footer/>
     </BrowserRouter>

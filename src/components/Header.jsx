@@ -5,7 +5,7 @@ import { Link, NavLink } from "react-router-dom";
 
 function Header() {
   return (
-    <header className="bg-[#212121]">
+    <div className="bg-[#212121]">
       <div className="relative w-full z-10 h-24 flex flex-col justify-around items-center py-2">
         <div className="flex w-full justify-around">
           <div className="hidden sm:block">
@@ -86,7 +86,7 @@ function Header() {
           </ul>
         </nav>
       </div>
-    </header>
+    </div>
   );
 }
 

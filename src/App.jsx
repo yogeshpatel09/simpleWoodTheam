@@ -8,6 +8,7 @@ import DashBoard from './components/DashBoard'
 import SoppingCart from './components/SoppingCart'
 import Catalog from './components/Catalog'
 import ProductCollection from './components/ProductCollection'
+import SignIn from './components/SignIn'
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path='/Account' element={<Account />}/>
         <Route path='/SoppingCart' element={<SoppingCart/>}/>
         <Route path='/DashBoard' element={<DashBoard />}/>
+        <Route path='/SignIn' element={<SignIn/>}></Route>
       </Routes>
       <Footer/>
     </BrowserRouter>
